@@ -1,6 +1,7 @@
 {
   "name": "first-react",
   "version": "0.1.0",
+  "homepage": "https://tompn.github.io/Task_Organizer/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
@@ -41,6 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://tompn.github.io/Task_Organizer/"
+  }
 }
