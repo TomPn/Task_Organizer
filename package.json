@@ -1,7 +1,7 @@
 {
-  "name": "first-react",
+  "name": "task_organizer",
   "version": "0.1.0",
-  "homepage": "https://tompn.github.io/",
+  "homepage": "https://tompn.github.io/task_organizer",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
