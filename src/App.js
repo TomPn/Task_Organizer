@@ -81,13 +81,13 @@ function App() {
       <div className="container">
         <Header onAdd = { () => setShowAddTask(!showAddTask) } showAdd = {showAddTask}/>
         <Routes>
-          <Route path = '/' element={
+          <Route path = 'Task_Organizer/' exact element={
             <>
               {showAddTask && <AddTask onAdd = {addTask} />}
               {tasks.length > 0 ? (<Tasks tasks = {tasks} onDelete = {deleteTask} onToggle = {toggleReminder} />) : ('No Tasks To Show')}
             </>
           }/>  
-          <Route path = '/about' element={<About />} />
+          <Route path = 'Task_Organizer/about' element={<About />} />
         </Routes>
         <Footer /> 
       </div> 
